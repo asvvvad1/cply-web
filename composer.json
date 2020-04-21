@@ -1,0 +1,18 @@
+{
+	"name": "asvvvad/cply-web",
+	"description": "Easily search, copy and view lyrics",
+	"type": "program",
+	"require": {
+		"php": ">=7.0.0",
+        "simivar/genius-php": "^2.0",
+        "php-http/message": "^1.8",
+        "php-http/guzzle6-adapter": "^2.0"
+	},
+	"license": "GPL-3.0",
+	"authors": [
+		{
+			"name": "asvvvad",
+			"email": "asvvvad@disroot.org"
+		}
+	]
+}
