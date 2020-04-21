@@ -11,6 +11,7 @@ Copy the token and paste it in place of `acess_token` [index.php @ line 20](inde
 
 ## Demo: 
 
-## See also: 
-* [cply-php](https://github.com/asvvvad/cply-php): original php script
-* [cply](https://github.com/asvvvad/cply): go implementation, better
+## All CPLY implementations: 
+* [cply-php](https://github.com/asvvvad/cply-php): original cli php script
+* [cply](https://github.com/asvvvad/cply): go cli implementation, better
+* [cply-web](https://github.com/asvvvad/cply-web): Browser version built on same code from original php cli version and javascript to copy the lyrics
