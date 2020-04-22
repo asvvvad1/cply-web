@@ -9,7 +9,7 @@ Easily search, copy and view lyrics
 Copy the token and paste it in place of `acess_token` [index.php @ line 20](index.php#L20)
 * Done!
 
-## Demo: 
+## Demo: [Here!](https://asvvvad.eu.org/cply-web/)
 
 ## All CPLY implementations: 
 * [cply-php](https://github.com/asvvvad/cply-php): original cli php script
