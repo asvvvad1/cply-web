@@ -12,7 +12,7 @@ if (isset($_GET["lyrics"])) {
 	die($lyrics);
 }
 
-require_once('../../data/cply-web/vendor/autoload.php');
+require_once('vendor/autoload.php');
 
 if (isset($_GET["search"])) {
 
@@ -57,9 +57,11 @@ if (isset($_GET["search"])) {
 		<title>CPLY-WEB</title>
 		<link rel="stylesheet" type="text/css" href="../assets/css/b0/b0.css">
 		<link rel="stylesheet" type="text/css" href="../assets/css/b0/white.css">
+		<link href="https://cdn.jsdelivr.net/npm/siiimple-toast/dist/style.css" rel="stylesheet">
+		<script src="https://cdn.jsdelivr.net/npm/siiimple-toast/dist/siiimple-toast.min.js"></script>
 		<style type="text/css">
 		</style>
-<script type="text/javascript">
+		<script type="text/javascript">
 function copyLyrics(path) {
 	let el;
 	let listItem = document.getElementById(path);
@@ -81,8 +83,9 @@ function copyLyrics(path) {
 			navigator.clipboard.writeText(res)
 		});
 	}
-	
+	siiimpleToast.success('Copied successfully!');
 }
+
 function searchLyrics(q) {
 	if (q != '') {
 	fetch('?search=' + q)
@@ -127,7 +130,7 @@ function searchLyrics(q) {
 		})
 	}
 }
-</script>
+	</script>
 	</head>
 <body>
 	<div class="container">
